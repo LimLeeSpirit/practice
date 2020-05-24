@@ -1,0 +1,183 @@
+# JMH version: 1.23
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=63789:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: javadetail.basic.hashMap.HashMapCycleTest.entrySet
+
+# Run progress: 0.00% complete, ETA 00:00:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 48.338 ns/op
+# Warmup Iteration   2: 44.773 ns/op
+Iteration   1: 37.631 ns/op
+Iteration   2: 36.987 ns/op
+Iteration   3: 37.388 ns/op
+Iteration   4: 37.417 ns/op
+Iteration   5: 37.403 ns/op
+
+
+Result "javadetail.basic.hashMap.HashMapCycleTest.entrySet":
+  37.365 ±(99.9%) 0.899 ns/op [Average]
+  (min, avg, max) = (36.987, 37.365, 37.631), stdev = 0.234
+  CI (99.9%): [36.466, 38.265] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=63789:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: javadetail.basic.hashMap.HashMapCycleTest.foreachEntrySet
+
+# Run progress: 16.67% complete, ETA 00:01:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 46.046 ns/op
+# Warmup Iteration   2: 43.758 ns/op
+Iteration   1: 37.160 ns/op
+Iteration   2: 37.298 ns/op
+Iteration   3: 38.239 ns/op
+Iteration   4: 36.415 ns/op
+Iteration   5: 38.452 ns/op
+
+
+Result "javadetail.basic.hashMap.HashMapCycleTest.foreachEntrySet":
+  37.513 ±(99.9%) 3.214 ns/op [Average]
+  (min, avg, max) = (36.415, 37.513, 38.452), stdev = 0.835
+  CI (99.9%): [34.298, 40.727] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=63789:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: javadetail.basic.hashMap.HashMapCycleTest.foreachKeySet
+
+# Run progress: 33.33% complete, ETA 00:00:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 85.381 ns/op
+# Warmup Iteration   2: 87.957 ns/op
+Iteration   1: 83.487 ns/op
+Iteration   2: 83.267 ns/op
+Iteration   3: 82.713 ns/op
+Iteration   4: 82.102 ns/op
+Iteration   5: 84.599 ns/op
+
+
+Result "javadetail.basic.hashMap.HashMapCycleTest.foreachKeySet":
+  83.234 ±(99.9%) 3.592 ns/op [Average]
+  (min, avg, max) = (82.102, 83.234, 84.599), stdev = 0.933
+  CI (99.9%): [79.642, 86.825] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=63789:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: javadetail.basic.hashMap.HashMapCycleTest.lambda
+
+# Run progress: 50.00% complete, ETA 00:00:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 26.277 ns/op
+# Warmup Iteration   2: 32.679 ns/op
+Iteration   1: 35.316 ns/op
+Iteration   2: 35.884 ns/op
+Iteration   3: 35.478 ns/op
+Iteration   4: 36.284 ns/op
+Iteration   5: 35.232 ns/op
+
+
+Result "javadetail.basic.hashMap.HashMapCycleTest.lambda":
+  35.639 ±(99.9%) 1.692 ns/op [Average]
+  (min, avg, max) = (35.232, 35.639, 36.284), stdev = 0.439
+  CI (99.9%): [33.947, 37.331] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=63789:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: javadetail.basic.hashMap.HashMapCycleTest.parallelStreamApi
+
+# Run progress: 66.67% complete, ETA 00:00:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 16311.251 ns/op
+# Warmup Iteration   2: 14653.079 ns/op
+Iteration   1: 15006.916 ns/op
+Iteration   2: 14845.670 ns/op
+Iteration   3: 15976.856 ns/op
+Iteration   4: 14986.131 ns/op
+Iteration   5: 13414.337 ns/op
+
+
+Result "javadetail.basic.hashMap.HashMapCycleTest.parallelStreamApi":
+  14845.982 ±(99.9%) 3536.532 ns/op [Average]
+  (min, avg, max) = (13414.337, 14845.982, 15976.856), stdev = 918.426
+  CI (99.9%): [11309.450, 18382.514] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=63789:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: javadetail.basic.hashMap.HashMapCycleTest.streamAPI
+
+# Run progress: 83.33% complete, ETA 00:00:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 77.267 ns/op
+# Warmup Iteration   2: 56.011 ns/op
+Iteration   1: 45.735 ns/op
+Iteration   2: 44.831 ns/op
+Iteration   3: 43.986 ns/op
+Iteration   4: 43.461 ns/op
+Iteration   5: 42.758 ns/op
+
+
+Result "javadetail.basic.hashMap.HashMapCycleTest.streamAPI":
+  44.154 ±(99.9%) 4.480 ns/op [Average]
+  (min, avg, max) = (42.758, 44.154, 45.735), stdev = 1.163
+  CI (99.9%): [39.674, 48.634] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:16
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                   Mode  Cnt      Score      Error  Units
+hashMap.HashMapCycleTest.entrySet           avgt    5     37.365 ±    0.899  ns/op
+hashMap.HashMapCycleTest.foreachEntrySet    avgt    5     37.513 ±    3.214  ns/op
+hashMap.HashMapCycleTest.foreachKeySet      avgt    5     83.234 ±    3.592  ns/op
+hashMap.HashMapCycleTest.lambda             avgt    5     35.639 ±    1.692  ns/op
+hashMap.HashMapCycleTest.parallelStreamApi  avgt    5  14845.982 ± 3536.532  ns/op
+hashMap.HashMapCycleTest.streamAPI          avgt    5     44.154 ±    4.480  ns/op
